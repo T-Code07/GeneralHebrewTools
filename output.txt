@@ -1,0 +1,673 @@
+-----TEST 1-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xבתכ
+FOUND VERB STEM:
+בתכ
+
+
+-----TEST 2-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתבתכ
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+בתכ
+Verb Stem Complete.
+
+-----TEST 3-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xרמש
+FOUND VERB STEM:
+רמש
+
+
+-----TEST 4-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתרמש
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+רמש
+Verb Stem Complete.
+
+-----TEST 5-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xדמל
+FOUND VERB STEM:
+דמל
+
+
+-----TEST 6-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתדמל
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+דמל
+Verb Stem Complete.
+
+-----TEST 7-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xרגס
+FOUND VERB STEM:
+רגס
+
+
+-----TEST 8-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתרגס
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+רגס
+Verb Stem Complete.
+
+-----TEST 9-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xחתפ
+FOUND VERB STEM:
+חתפ
+
+
+-----TEST 10-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתחתפ
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+חתפ
+Verb Stem Complete.
+
+-----TEST 11-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xרבש
+FOUND VERB STEM:
+רבש
+
+
+-----TEST 12-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתרבש
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+רבש
+Verb Stem Complete.
+
+-----TEST 13-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xבשח
+FOUND VERB STEM:
+בשח
+
+
+-----TEST 14-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתבשח
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+בשח
+Verb Stem Complete.
+
+-----TEST 15-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xרכז
+FOUND VERB STEM:
+רכז
+
+
+-----TEST 16-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתרכז
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+רכז
+Verb Stem Complete.
+
+-----TEST 1-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתדמל
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+דמל
+Verb Stem Complete.
+
+-----TEST 2-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xבתכ
+FOUND VERB STEM:
+בתכ
+
+
+-----TEST 3-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתבתכ
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+בתכ
+Verb Stem Complete.
+
+-----TEST 4-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xרמש
+FOUND VERB STEM:
+רמש
+
+
+-----TEST 5-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתרמש
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+רמש
+Verb Stem Complete.
+
+-----TEST 6-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xדמל
+FOUND VERB STEM:
+דמל
+
+
+-----TEST 7-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתדמל
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+דמל
+Verb Stem Complete.
+
+-----TEST 8-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xרגס
+FOUND VERB STEM:
+רגס
+
+
+-----TEST 9-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתרגס
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+רגס
+Verb Stem Complete.
+
+-----TEST 10-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xחתפ
+FOUND VERB STEM:
+חתפ
+
+
+-----TEST 11-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתחתפ
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+חתפ
+Verb Stem Complete.
+
+-----TEST 12-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xרבש
+FOUND VERB STEM:
+רבש
+
+
+-----TEST 13-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתרבש
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+רבש
+Verb Stem Complete.
+
+-----TEST 14-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xבשח
+FOUND VERB STEM:
+בשח
+
+
+-----TEST 15-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתבשח
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+בשח
+Verb Stem Complete.
+
+-----TEST 16-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xרכז
+FOUND VERB STEM:
+רכז
+
+
+-----TEST 17-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתרכז
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+רכז
+Verb Stem Complete.
+
+-----TEST 1-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתדמל
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+דמל
+Verb Stem Complete.
+
+-----TEST 2-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xבתכ
+FOUND VERB STEM:
+בתכ
+
+
+-----TEST 3-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתבתכ
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+בתכ
+Verb Stem Complete.
+
+-----TEST 4-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xרמש
+FOUND VERB STEM:
+רמש
+
+
+-----TEST 5-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתרמש
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+רמש
+Verb Stem Complete.
+
+-----TEST 6-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xדמל
+FOUND VERB STEM:
+דמל
+
+
+-----TEST 7-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתדמל
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+דמל
+Verb Stem Complete.
+
+-----TEST 8-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xרגס
+FOUND VERB STEM:
+רגס
+
+
+-----TEST 9-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתרגס
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+רגס
+Verb Stem Complete.
+
+-----TEST 10-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xחתפ
+FOUND VERB STEM:
+חתפ
+
+
+-----TEST 11-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתחתפ
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+חתפ
+Verb Stem Complete.
+
+-----TEST 12-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xרבש
+FOUND VERB STEM:
+רבש
+
+
+-----TEST 13-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתרבש
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+רבש
+Verb Stem Complete.
+
+-----TEST 14-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xבשח
+FOUND VERB STEM:
+בשח
+
+
+-----TEST 15-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתבשח
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+בשח
+Verb Stem Complete.
+
+-----TEST 16-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xרכז
+FOUND VERB STEM:
+רכז
+
+
+-----TEST 17-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+Xתרכז
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+רכז
+Verb Stem Complete.
+
+-----TEST 1-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+למדתX
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+למד
+Verb Stem Complete.
+
+-----TEST 2-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+כתבX
+FOUND VERB STEM:
+כתב
+
+
+-----TEST 3-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+כתבתX
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+כתב
+Verb Stem Complete.
+
+-----TEST 4-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+שמרX
+FOUND VERB STEM:
+שמר
+
+
+-----TEST 5-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+שמרתX
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+שמר
+Verb Stem Complete.
+
+-----TEST 6-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+למדX
+FOUND VERB STEM:
+למד
+
+
+-----TEST 7-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+למדתX
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+למד
+Verb Stem Complete.
+
+-----TEST 8-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+סגרX
+FOUND VERB STEM:
+סגר
+
+
+-----TEST 9-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+סגרתX
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+סגר
+Verb Stem Complete.
+
+-----TEST 10-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+פתחX
+FOUND VERB STEM:
+פתח
+
+
+-----TEST 11-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+פתחתX
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+פתח
+Verb Stem Complete.
+
+-----TEST 12-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+שברX
+FOUND VERB STEM:
+שבר
+
+
+-----TEST 13-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+שברתX
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+שבר
+Verb Stem Complete.
+
+-----TEST 14-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+חשבX
+FOUND VERB STEM:
+חשב
+
+
+-----TEST 15-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+חשבתX
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+חשב
+Verb Stem Complete.
+
+-----TEST 16-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+זכרX
+FOUND VERB STEM:
+זכר
+
+
+-----TEST 17-----
+STEP 1: Finding Valid Vov....
+Found a VOV at index: 1
+STEP 2: Removing Vov....
+זכרתX
+STEP 3: Check ending letters....
+ת
+Removing feminine singular ending:
+זכר
+Verb Stem Complete.
+

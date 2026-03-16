@@ -1,28 +1,8 @@
 import java.util.Scanner;
 
-public class HebrewAndCode {
+public class HebrewAndCode 
+{
 
-    public static void main(String[] args) 
-    {
-        Scanner scr = new Scanner(System.in);
-
-        try
-        {
-            //findStem("למד");
-            findStem("לומדות");
-            System.out.println("------TEST 2-------");
-            findStem("לומדת");
-            System.out.println("------TEST 3-------");
-            findStem("לומדים");
-            System.out.println("------TEST 4-------");
-            findStem("לומד");
-            
-        }
-        catch(UnrecognizedStemException stemE)
-        {
-            System.out.println(stemE.getMessage());
-        }
-    }
 
     private static void PrintHebrewAlphabet(String input) {
         char inputChar = input.charAt(0);
@@ -183,9 +163,13 @@ public class HebrewAndCode {
     }
 
 
+
+    //NOTE: this next two functions, for some reason, the commented out version is needed for
+    //      for correct order in the VS Code terminal, but not in the file. 
     public static void PrintRightToLeft(char[] hebrewWordArray)
     {
-          for(int idx = hebrewWordArray.length - 1; idx >= 0; idx--) 
+            for(int idx = 0; idx < hebrewWordArray.length; idx++)
+         // for(int idx = hebrewWordArray.length - 1; idx >= 0; idx--) 
                 {
                     System.out.print(hebrewWordArray[idx]);
                 }
@@ -194,7 +178,8 @@ public class HebrewAndCode {
 
     public static void PrintRightToLeft(char[] hebrewWordArray, int length)
     {
-          for(int idx = length - 1; idx >= 0; idx--) 
+        for(int idx = 0; idx < length; idx++)
+       //  for(int idx = length - 1; idx >= 0; idx--) 
                 {
                     System.out.print(hebrewWordArray[idx]);
                 }
