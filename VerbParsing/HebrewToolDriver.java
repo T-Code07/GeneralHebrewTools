@@ -1,3 +1,5 @@
+package VerbParsing;
+
 public class HebrewToolDriver {
     public static void main(String[] args) {
         HebrewAlphabetPrinter printer = new HebrewAlphabetPrinter();

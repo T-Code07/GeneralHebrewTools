@@ -1,5 +1,4 @@
-
-
+package VerbParsing;
 
 public class VerbStemFinderPaal 
 {
@@ -141,12 +140,4 @@ public class VerbStemFinderPaal
 
 
    
-}
-
-class UnrecognizedStemException extends Exception
-{
-    public UnrecognizedStemException()
-    {
-        super("Can't handle this Stem");
-    }
 }

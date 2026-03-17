@@ -1,3 +1,5 @@
+package VerbParsing;
+
 public class HebrewArrayUtilities {
       //NOTE: this next two functions, for some reason, the commented out version is needed for
     //      for correct order in the VS Code terminal, but not in the file. 

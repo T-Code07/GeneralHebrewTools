@@ -1,3 +1,5 @@
+package VerbParsing.Testing;
+
 public class HebrewVerbStemTestCase 
 {
     public String input;
