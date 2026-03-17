@@ -24,7 +24,7 @@ public class HebrewVerbStemTestDriver
     public static void main(String[] args) 
     {
         
-        HebrewAndCode stemFinder = new HebrewAndCode();
+        VerbStemFinderPaal stemFinder = new VerbStemFinderPaal();
         int wordCount = 1;
         for(HebrewVerbStemTestCase test : testCases)
         {

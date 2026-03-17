@@ -16,5 +16,8 @@ The purpose of this project is to experiment with crossing my Hebrew knowledge a
 1. storing words as their own class
 2. a sentence parser (very basic)
 3. given a list of words, find how many have same stem. (this would require stem parsing for non-verbs)
+4. Turn V-stem into an offshoot of a stem-finding interface
+5. create composite classes that all do different functions with Hebrew
+
 
 

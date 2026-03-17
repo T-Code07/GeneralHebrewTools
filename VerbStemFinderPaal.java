@@ -1,22 +1,12 @@
-import java.util.Scanner;
 
-public class HebrewAndCode 
+
+
+public class VerbStemFinderPaal 
 {
 
 
-    private static void PrintHebrewAlphabet(String input) {
-        char inputChar = input.charAt(0);
-        System.out.println(input);
-        System.out.println(inputChar);
-        System.out.println((int)inputChar);
-        
-        //if you start at א then you will print out the rest of the hebrew alphabet like this. 
-        for(int i = 0; i< 27; i++) System.out.println(((char)((int)inputChar + i)));
-    }
-
-
     //TODO: find stem letters (only for present verbs for now pa'al)
-    public static void findStem(String word) throws UnrecognizedStemException 
+    public void findStem(String word) throws UnrecognizedStemException 
     {
         //TODO: deal with infinitive
 
@@ -69,15 +59,15 @@ public class HebrewAndCode
             System.out.println("STEP 2: Removing Vov....");
 
             //Shift each element back 1 index
-            int newLength = shiftElementsBackAnIndex(wordToArray, indexOfVov, wordToArray.length);
+            int newLength = HebrewArrayUtilities.shiftElementsBackAnIndex(wordToArray, indexOfVov, wordToArray.length);
 
             //TODO: fix the printing.
-            PrintRightToLeft(wordToArray);
+            HebrewArrayUtilities.PrintRightToLeft(wordToArray);
 
             if(newLength <= 3)
             {
                 System.out.println("FOUND VERB STEM:");
-               PrintRightToLeft(wordToArray, newLength);
+               HebrewArrayUtilities.PrintRightToLeft(wordToArray, newLength);
 
                 System.out.println("");
                 return;
@@ -101,15 +91,15 @@ public class HebrewAndCode
                         {
                             System.out.println("Removing feminine plural ending:");
 
-                            newLength = shiftElementsBackAnIndex(wordToArray, newLastIDX, newLength);
-                            newLength = shiftElementsBackAnIndex(wordToArray, newLastIDX - 1, newLength);
-                            PrintRightToLeft(wordToArray, newLength);
+                            newLength = HebrewArrayUtilities.shiftElementsBackAnIndex(wordToArray, newLastIDX, newLength);
+                            newLength = HebrewArrayUtilities.shiftElementsBackAnIndex(wordToArray, newLastIDX - 1, newLength);
+                            HebrewArrayUtilities.PrintRightToLeft(wordToArray, newLength);
                         }
                     else
                         {
                             System.out.println("Removing feminine singular ending:");
-                            newLength = shiftElementsBackAnIndex(wordToArray, lastLetter, newLength);
-                            PrintRightToLeft(wordToArray, newLength);
+                            newLength = HebrewArrayUtilities.shiftElementsBackAnIndex(wordToArray, lastLetter, newLength);
+                            HebrewArrayUtilities.PrintRightToLeft(wordToArray, newLength);
                         }
                     
                     //check if it is three letters now
@@ -124,16 +114,16 @@ public class HebrewAndCode
                         {
                             System.out.println("Removing masculine plural ending:");
 
-                            newLength = shiftElementsBackAnIndex(wordToArray, newLastIDX, newLength);
-                            newLength = shiftElementsBackAnIndex(wordToArray, newLastIDX - 1, newLength);
-                            PrintRightToLeft(wordToArray, newLength);
+                            newLength = HebrewArrayUtilities.shiftElementsBackAnIndex(wordToArray, newLastIDX, newLength);
+                            newLength = HebrewArrayUtilities.shiftElementsBackAnIndex(wordToArray, newLastIDX - 1, newLength);
+                            HebrewArrayUtilities.PrintRightToLeft(wordToArray, newLength);
                         }
                     //TODO: this won't run because this gets caught earlier. 
                     else
                         {
                             System.out.println("Removing masculine singular ending:");
-                            newLength = shiftElementsBackAnIndex(wordToArray, lastLetter, newLength);
-                            PrintRightToLeft(wordToArray, newLength);
+                            newLength = HebrewArrayUtilities.shiftElementsBackAnIndex(wordToArray, lastLetter, newLength);
+                            HebrewArrayUtilities.PrintRightToLeft(wordToArray, newLength);
                         }
                     
                     //check if it is three letters now
@@ -149,46 +139,8 @@ public class HebrewAndCode
         }
     }
 
-    private static int shiftElementsBackAnIndex(char[] wordToArray, int elementIndexToRemove, int length) {
-        for(int idx = elementIndexToRemove; idx + 1 < length ; idx++)
-        {
-                wordToArray[idx] = wordToArray[idx + 1];                 
-        }
 
-        //Change the last letter to an X to represent the removal (and, print last letter).
-        wordToArray[length - 1] = 'X';
-        
-        //return new length;
-        return length - 1;
-    }
-
-
-
-    //NOTE: this next two functions, for some reason, the commented out version is needed for
-    //      for correct order in the VS Code terminal, but not in the file. 
-    public static void PrintRightToLeft(char[] hebrewWordArray)
-    {
-            for(int idx = 0; idx < hebrewWordArray.length; idx++)
-         // for(int idx = hebrewWordArray.length - 1; idx >= 0; idx--) 
-                {
-                    System.out.print(hebrewWordArray[idx]);
-                }
-            System.out.println("");
-    }
-
-    public static void PrintRightToLeft(char[] hebrewWordArray, int length)
-    {
-        for(int idx = 0; idx < length; idx++)
-       //  for(int idx = length - 1; idx >= 0; idx--) 
-                {
-                    System.out.print(hebrewWordArray[idx]);
-                }
-            System.out.print("\n");
-    }
-
-
-    
-
+   
 }
 
 class UnrecognizedStemException extends Exception
